@@ -563,8 +563,8 @@ const styles = {
     fontFamily:"'Apple SD Gothic Neo', 'Nanum Gothic', sans-serif",
   },
   screen: {
-    width:"calc(100vw / 1.1)",
-    height:"calc(100dvh /1.3)",
+    width:"calc(100vw / 1.0)",
+    height:"calc(100dvh /1.1)",
     background:"#f8faf8",
     borderRadius:0,
     overflow:"hidden",
