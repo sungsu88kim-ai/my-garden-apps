@@ -571,7 +571,7 @@ const styles = {
     display:"flex", flexDirection:"column",
     position:"fixed",
     top:0, left:0,
-    transform:"scale(1.1, 1.3)",
+    transform:"scale(1.0, 1.1)",
     transformOrigin:"top left",
   },
   statusBar: {
