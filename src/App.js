@@ -563,15 +563,15 @@ const styles = {
     fontFamily:"'Apple SD Gothic Neo', 'Nanum Gothic', sans-serif",
   },
   screen: {
-    width:"calc(100vw / 1.2)",
-    height:"calc(100dvh /1.6)",
+    width:"calc(100vw / 1.1)",
+    height:"calc(100dvh /1.3)",
     background:"#f8faf8",
     borderRadius:0,
     overflow:"hidden",
     display:"flex", flexDirection:"column",
     position:"fixed",
     top:0, left:0,
-    transform:"scale(1.2, 1.6)",
+    transform:"scale(1.1, 1.3)",
     transformOrigin:"top left",
   },
   statusBar: {
