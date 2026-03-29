@@ -559,32 +559,29 @@ function CropCard({ c, currentMonth, inGarden, onSelect, onToggle }) {
 
 const styles = {
   phone: {
-    display:"flex", justifyContent:"center", alignItems:"center",
-    minHeight:"100vh", background:"#e8f5e9",
+    width:"100%", height:"100%",
     fontFamily:"'Apple SD Gothic Neo', 'Nanum Gothic', sans-serif",
   },
   screen: {
-    width:390, height:844,
+    width:"calc(100vw / 1.5)",
+    height:"calc(100dvh / 2)",
     background:"#f8faf8",
-    borderRadius:40,
+    borderRadius:0,
     overflow:"hidden",
     display:"flex", flexDirection:"column",
-    boxShadow:"0 32px 80px rgba(0,0,0,0.25), inset 0 0 0 1px rgba(255,255,255,0.5)",
-    position:"relative",
+    position:"fixed",
+    top:0, left:0,
+    transform:"scale(1.5, 2)",
+    transformOrigin:"top left",
   },
   statusBar: {
-    background:"transparent",
-    padding:"12px 24px 0",
-    display:"flex", justifyContent:"space-between",
-    fontSize:12, fontWeight:600,
-    position:"absolute", top:0, left:0, right:0, zIndex:10,
-    color:"#fff",
+    display:"none",
   },
   bottomNav: {
     display:"flex",
     background:"#fff",
     borderTop:"1px solid #f0f0f0",
-    paddingBottom:12,
+    paddingBottom:"env(safe-area-inset-bottom, 8px)",
     boxShadow:"0 -4px 20px rgba(0,0,0,0.06)"
   }
 };
