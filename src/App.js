@@ -564,7 +564,7 @@ const styles = {
   },
   screen: {
     width:"calc(100vw / 1.0)",
-    height:"calc(100dvh /1.0)",
+    height:"calc(80dvh /1.0)",
     background:"#f8faf8",
     borderRadius:0,
     overflow:"hidden",
