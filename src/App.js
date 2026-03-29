@@ -564,14 +564,14 @@ const styles = {
   },
   screen: {
     width:"calc(100vw / 1.0)",
-    height:"calc(100dvh /1.1)",
+    height:"calc(100dvh /1.0)",
     background:"#f8faf8",
     borderRadius:0,
     overflow:"hidden",
     display:"flex", flexDirection:"column",
     position:"fixed",
     top:0, left:0,
-    transform:"scale(1.0, 1.1)",
+    transform:"scale(1.0, 1.0)",
     transformOrigin:"top left",
   },
   statusBar: {
